@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ethers": "^5.0.24",
+    "micro": "^9.3.4",
+    "micro-cacheable": "^2.0.1",
+    "micro-dev": "^3.0.0"
+  },
+  "name": "esd-coupon-server",
+  "version": "1.0.0",
+  "description": "Offer fetcher for esd clipper coupons",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "micro",
+    "dev": "micro-dev"
+  },
+  "author": "",
+  "license": "ISC"
+}
