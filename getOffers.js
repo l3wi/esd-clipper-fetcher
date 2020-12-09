@@ -9,7 +9,7 @@ const {
 } = require('./presets')
 const atob = (a) => Buffer.from(a, 'base64').toString('binary')
 
-let provider = new ethers.providers.WebSocketProvider(process.env.NODE_URL)
+let provider = new ethers.providers.JsonRpcProvider(process.env.NODE_URL)
 
 const fetchCoupons = async (account) => {
   let dao = new ethers.Contract(DAO_ADDRESS, DAO_ABI, provider)

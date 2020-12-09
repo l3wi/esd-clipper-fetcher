@@ -4,6 +4,7 @@
     "ethers": "^5.0.24",
     "micro": "^9.3.4",
     "micro-cacheable": "^2.0.1",
+    "micro-cors": "^0.1.1",
     "micro-dev": "^3.0.0"
   },
   "name": "esd-coupon-server",
